@@ -1,7 +1,7 @@
 Watchd
 =======
 
-Watchd is a daemon that forwards local filesystem change events over a network socket. It's designed to be run on a development machine and relay filesystem events into a virtual machine or container.
+Watchd is a daemon that forwards local filesystem change events over a network socket. It's designed to be run on a development machine to relay filesystem events into a virtual machine or container.
 
 The protocol is compatible with [guard/listen](), [watch-network](https://github.com/efacilitation/watch-network), [GoListen](https://github.com/ekino/golisten). See [compatible watchers](#Compatible-Watchers) for more.
 
